@@ -8,6 +8,7 @@ body {
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
+    background: #fff;
 }
 
 #up {
@@ -499,10 +500,6 @@ h2::after {
 }
 
 @media screen and (max-width: 1024px) {
-    .body {
-        background: #2c3e50;
-    }
-    
     .menu-container {
         flex-wrap: wrap;
         height: auto;
@@ -591,6 +588,10 @@ h2::after {
 }
 
 @media screen and (max-width: 768px) {
+    .body {
+        background: #2c3e50;
+    }
+    
     .main-menu {
         position: relative;
     }
@@ -660,6 +661,10 @@ h2::after {
 
 /* Маленькие мобильные (до 480px) */
 @media screen and (max-width: 480px) {
+    .body {
+        background: #2c3e50;
+    }
+    
     .logo {
         font-size: 1.2rem;
     }
