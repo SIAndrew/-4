@@ -588,7 +588,7 @@ h2::after {
 }
 
 @media screen and (max-width: 768px) {
-    .body {
+    body {
         background: #2c3e50;
     }
     
@@ -661,7 +661,7 @@ h2::after {
 
 /* Маленькие мобильные (до 480px) */
 @media screen and (max-width: 480px) {
-    .body {
+    body {
         background: #2c3e50;
     }
     
