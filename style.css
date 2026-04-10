@@ -588,10 +588,6 @@ h2::after {
 }
 
 @media screen and (max-width: 768px) {
-    body {
-        background: #2c3e50;
-    }
-    
     .main-menu {
         position: relative;
     }
@@ -709,6 +705,10 @@ h2::after {
 }
 
 @media screen and (max-width: 339px){
+    body {
+        background: #2c3e50;
+    }
+    
     .banner-right {
         width: 100%;
     }
