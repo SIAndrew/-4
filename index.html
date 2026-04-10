@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практическая работа №4</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<div id="up"></div>
+<header class="main-menu">
+    <div class="menu-container">
+        <div class="logo">
+            <i class="fa-solid fa-code"></i>
+            <span>WebStudio</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#up">Баннер</a>
+            <a href="#news">Новости</a>
+            <a href="#section-float">О кошке</a>
+            <a href="#section-inline">Услуги</a>
+            <a href="#section-flex">Портфолио</a>
+            <a href="#footer">Контакты</a>
+        </nav>
+        <div class="contacts">
+            <a href="#">+7 (900) 123-45-67</a>
+        </div>
+    </div>
+</header>
+
+<section class="banner">
+    <div class="banner-content">
+        <div class="banner-left">
+            <a href="#news" class="btn btn-one">Смотреть новости</a>
+            <a href="#section-flex" class="btn btn-two">Наше портфолио</a>
+        </div>
+        <div class="banner-right">
+            <div class="animated-shape shape-1">⚙️</div>
+            <div class="animated-shape shape-2">🚀</div>
+            <div class="animated-shape shape-3">💡</div>
+        </div>
+    </div>
+</section>
+
+<section class="news" id="news">
+    <div class="container">
+        <h2>Новости</h2>
+        <div class="news-grid">
+            <article class="news-card">
+                <img src="images/NewProjekt.jpg" alt="Новость 1">
+                <h3>Запуск нового проекта</h3>
+                <p>Мы рады сообщить о запуске масштабного проекта. <span>Подробнее о технических деталях</span> читайте ниже.</p>
+                <a href="#" class="read-more">Подробнее</a>
+            </article>
+            <article class="news-card">
+                <img src="images/tehnologi.jpg" alt="Новость 2">
+                <h3>Обновление технологий</h3>
+                <p>Наша команда перешла на современные стандарты CSS и HTML5. <span>Это позволило улучшить</span> производительность на 40%.</p>
+                <a href="#" class="read-more">Подробнее</a>
+            </article>
+            <article class="news-card">
+                <img src="images/NewPartners.jpg" alt="Новость 3">
+                <h3>Новые партнёры</h3>
+                <p>К нашей сети присоединились ведущие компании отрасли. <span>Совместная работа</span> открывает новые горизонты.</p>
+                <a href="#" class="read-more">Подробнее</a>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="section-float" id="section-float">
+    <div class="container">
+        <h2>О моей кошке</h2>
+        <img src="images/1.jpg" alt="О нас" class="float-img">
+        <p>Это моя кошка <span>Лола</span> — пушистая хозяйка квартиры и главный будильник по утрам. Впринципе все, но мне надо больше текста чтобы он обогнул картинку.
+        Это моя кошка <span>Лола</span> — пушистая хозяйка квартиры и главный будильник по утрам. 🐱 Впринципе все, но мне надо больше текста чтобы он обогнул картинку.
+        Это моя кошка <span>Лола</span> — пушистая хозяйка квартиры и главный будильник по утрам. Впринципе все, но мне надо больше текста чтобы он обогнул картинку.
+        Это моя кошка <span>Лола</span> — пушистая хозяйка квартиры и главный будильник по утрам. Впринципе все, но мне надо больше текста чтобы он обогнул картинку.
+        Это моя кошка <span>Лола</span> — пушистая хозяйка квартиры и главный будильник по утрам. Впринципе все, но мне надо больше текста чтобы он обогнул картинку.
+        Это моя кошка <span>Лола</span> — пушистая хозяйка 🐾квартиры и главный будильник по утрам. Впринципе все, но мне надо больше текста чтобы он обогнул картинку.
+        Это моя кошка <span>Лола</span> — пушистая хозяйка квартиры и главный будильник по утрам. Впринципе все, но мне надо больше текста 😸чтобы он обогнул картинку.</p>
+    </div>
+</section>
+
+<section class="section-inline-block" id="section-inline">
+    <div class="container">
+        <h2>Наши услуги</h2>
+        <div class="two-columns-inline">
+            <img src="images/2.jpg" alt="Веб-разработка">
+            <div class="col-inline">
+                <h3>Веб-разработка</h3>
+                <p>Создаём <span>современные сайты</span> любой сложности: от лендингов до корпоративных порталов. Используем гибкие методологии и адаптивный дизайн для обеспечения идеального отображения на всех устройствах.</p>
+                <p>Каждый проект включает SEO-оптимизацию, интеграцию с CRM-системами и техническую поддержку после запуска.</p>
+            </div>
+        </div>
+        <div class="two-columns-inline">
+            <img src="images/3.png" alt="Мобильные приложения">
+            <div class="col-inline">
+                <h3>Мобильные приложения</h3>
+                <p>Разрабатываем <span>кроссплатформенные приложения</span> для iOS и Android с использованием React Native и Flutter. Быстрая разработка, нативная производительность и красивый интерфейс.</p>
+                <p>Полный цикл: от проектирования UX/UI до публикации в App Store и Google Play с последующим обновлением.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-flex" id="section-flex">
+    <div class="container">
+        <h2>Портфолио</h2>
+        <div class="two-columns-flex">
+            <img src="images/4.png" alt="Проект 1">
+            <div class="col-flex">
+                <h3>Интернет-магазин «TechMart»</h3>
+                <p>Полнофункциональный <span>e-commerce проект</span> с каталогом на 50 000 товаров, корзиной, онлайн-оплатой и системой лояльности.</p>
+                <p>Технологии: React, Node.js, PostgreSQL, Redis. Среднее время загрузки страницы — 1.2 секунды.</p>
+            </div>
+        </div>
+        <div class="two-columns-flex">
+            <img src="images/5.png" alt="Проект 2">
+            <div class="col-flex">
+                <h3>Корпоративный портал «LogiTrans»</h3>
+                <p>Внутренняя система для <span>управления логистикой</span> и отслеживания грузов в реальном времени. Интеграция с GPS-трекерами и складскими системами.</p>
+                <p>Технологии: Vue.js, Python, Docker, Kubernetes. Более 1000 активных пользователей ежедневно.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h3>Контактная информация</h3>
+                <p>📍 г. Саратов, ул. Политехническая, 77</p>
+                <p>📞 +7 (900) 123-45-67</p>
+                <p>✉️ info@webstudio.ru</p>
+            </div>
+            <div class="footer-section">
+                <h3>Форма обратной связи</h3>
+                <form class="contact-form" action="#" method="post">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Ваше сообщение" rows="4" required></textarea>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+            <div class="footer-section">
+                <h3>Мы на карте</h3>
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Adefault&source=constructor" width="100%" height="200" frameborder="0" style="border:0; border-radius:8px;" allowfullscreen></iframe>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 WebStudio. Все права защищены.</p>
+    </div>
+</footer>
+
+<a href="#up" class="back-to-top" title="Наверх">
+    <i class="fa-solid fa-arrow-up"></i>
+</a>
+
+</body>
+</html>
