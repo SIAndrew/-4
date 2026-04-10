@@ -8,7 +8,6 @@ body {
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
-    background: #2c3e50;
 }
 
 #up {
@@ -500,6 +499,10 @@ h2::after {
 }
 
 @media screen and (max-width: 1024px) {
+    .body {
+        background: #2c3e50;
+    }
+    
     .menu-container {
         flex-wrap: wrap;
         height: auto;
