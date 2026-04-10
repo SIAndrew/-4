@@ -237,10 +237,11 @@ h2::after {
 
 .news-card {
     flex: 1 1 250px;
-    background: #e9e9ff;
+    background: #f0f4f8;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
+    box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.08);
 }
 
 .news-card img {
