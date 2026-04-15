@@ -520,7 +520,7 @@ h2::after {
     }
 
     .banner {
-        margin-top: 130px;
+        padding-top: 130px;
         height: 400px;
     }
 
@@ -655,7 +655,6 @@ h2::after {
     }
 }
 
-/* Маленькие мобильные (до 480px) */
 @media screen and (max-width: 480px) {
     body {
         background: #2c3e50;
@@ -715,6 +714,19 @@ h2::after {
 
     h3 {
         font-size: 95%;
+    }
+
+    span {
+        font-size: 95%;
+    }
+
+    p {
+        font-size: 70%;
+    }
+
+    .read-more {
+        font-size: 75%;
+        padding: 12px 0;
     }
     
     .footer-section {
