@@ -591,6 +591,7 @@ h2::after {
 @media screen and (max-width: 768px) {
     .main-menu {
         position: relative;
+        background: #2a3f55;
     }
 
     .banner {
